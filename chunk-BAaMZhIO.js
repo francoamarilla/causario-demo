@@ -1,0 +1,1 @@
+import{N as H,Or as p,kn as dl,sr as kE}from"./main-LLFQZMTI.js";var o=class e{http=p(kE);cache$=null;listar(){return this.cache$??=this.http.get(`/api/v1/equipo`).pipe(dl({bufferSize:1,refCount:!1})),this.cache$}olvidar(){this.cache$=null}static ɵfac=function(c){return new(c||e)};static ɵprov=H({token:e,factory:e.ɵfac,providedIn:`root`})};export{o as t};

@@ -1,0 +1,1 @@
+import{Cn as P,Er as g,fr as bE,ln as Lh}from"./main-GROSGNFX.js";var o=class e{http=g(bE);cache$=null;listar(){return this.cache$??=this.http.get(`/api/v1/equipo`).pipe(Lh({bufferSize:1,refCount:!1})),this.cache$}olvidar(){this.cache$=null}static ɵfac=function(c){return new(c||e)};static ɵprov=P({token:e,factory:e.ɵfac,providedIn:`root`})};export{o as t};

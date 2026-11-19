@@ -1,0 +1,1 @@
+import{cr as rn}from"./chunk-YjG90EvH.js";function a(e){let n=new rn;for(let[o,t]of Object.entries(e))t==null||typeof t==`string`&&t.trim()===``||(n=n.set(o,String(t)));return n}export{a as t};
